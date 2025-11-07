@@ -5,7 +5,7 @@ export default function PackagesTab(){
     const pathname=usePathname();
 
     const tabs=[
-        {Label:"روزانه", path:'/Daily'},
+        {Label:"روزانه", path:'/daily'},
         {Label:"هفتگی",path:"/weekly"},
         {Label:"ماهانه", path:'/monthly'}
     ]
