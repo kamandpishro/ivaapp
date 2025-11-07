@@ -1,7 +1,10 @@
+import Header from "@/components/InternetPackageHeader"
+import Footer from "@/components/Footer"
 export default function Home(){
   return(
-    <div className="flex h-screen items-center justify-center bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">ivaapp test</h1>
+    <div className=" bg-gray-300">
+      <Header/>
+      <Footer/>
     </div>
   )
 }
