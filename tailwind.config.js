@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {       
+       iran: 'var(--font-iran-yekan)',
+      },
       colors: {
         primary: "#005B9E",
         accent: "#FFD700",
