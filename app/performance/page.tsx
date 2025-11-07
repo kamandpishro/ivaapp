@@ -4,7 +4,7 @@ import PerformancePage from "@/components/InternetPackageFooter/Performance";
 
 export default function Performance(){
     return(
-        <div>
+        <div className="pt-[100px] pb-[100px]">
             <Header/>
             <PerformancePage/>
             <Footer/>

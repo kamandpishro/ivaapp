@@ -7,7 +7,8 @@ import { useRouter } from "next/navigation";
 export default function Header() {
     const router = useRouter();
     return(
-        <div dir="rtl" className="flex relative bg-white rounded-lg  items-center  px-4 py-2 shadow-md">
+        <div dir="rtl" className="fixed  top-0 left-0 w-full flex bg-white rounded-b-lg items-center px-4 py-2
+             shadow-md border-b border-gray-200 z-50">
             <Image 
             src="/assets/header/logo.svg"  
             alt="ایوا"   

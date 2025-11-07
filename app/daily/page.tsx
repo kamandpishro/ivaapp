@@ -5,7 +5,7 @@ import Footer from "@/components/InternetPackageFooter/Footer";
 
 export default function DailyPage() {
   return (
-    <div>
+    <div className="pt-[100px] pb-[100px]">
       <Header />
       <PackagesTab />
       <DailyPackages />

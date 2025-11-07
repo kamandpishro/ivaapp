@@ -5,7 +5,7 @@ import Footer from "@/components/InternetPackageFooter/Footer";
 
 export default function MonthlyPage() {
   return (
-    <div>
+    <div className="pt-[100px] pb-[100px]">
       <Header />
       <PackagesTab />
       <MonthlyPackages />

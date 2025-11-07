@@ -6,7 +6,8 @@ import { useRouter } from "next/navigation";
 export default function Footer(){
     const router=useRouter();
     return(
-        <div className="flex items-center justify-center gap-64 bg-white rounded-lg px-4 py-2 shadow-mt">
+        <div className=" fixed bottom-0 left-0 w-full flex items-center justify-center gap-16 sm:gap-24 md:gap-32 lg:gap-48 bg-white 
+                    px-4 py-2 shadow-md border-t border-gray-200 z-50">
             <div  onClick={()=> router.push("/mystation")}   className="flex flex-col items-center justify-center cursor-pointer">
              <Image src={"/assets/bottom-nav/home.svg"} alt="جایگاه من" width={28}  height={28}/>
              <span className="text-xs mt-1 font-medium">جایگاه من</span>
